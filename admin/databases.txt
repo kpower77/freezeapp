@@ -1,7 +1,0 @@
-Database Details:
-================
-
-DatabaseName:
-UserName:
-HostName:
-Password:

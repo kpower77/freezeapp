@@ -13,5 +13,3 @@
 <body>
 
 	<div class="container">
-
-
