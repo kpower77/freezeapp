@@ -12,7 +12,6 @@
  ?>
 
   
-  <?php include("includes/nav.php") ?>
 	
 
 	<div class="row">
