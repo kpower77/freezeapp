@@ -7,7 +7,7 @@
 
 
 	<div class="jumbotron">
-		<h1 class="text-center">Activate</h1>
+		<h1 class="text-center">Account Activated</h1>
 	</div>
 
 
