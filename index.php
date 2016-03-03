@@ -14,7 +14,7 @@
 	
 	<body>
 		<div class="jumbotron">
->>>>>>> e494f32725b7d127279e9eaffdbeb3f75da2bf89
+
 
 		<?php //display_message(); ?>
 		<h1 class="text-center"> Home - Main </h1>
