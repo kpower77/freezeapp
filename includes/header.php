@@ -3,7 +3,7 @@
 
 <html lang="en">
 
-<head>
+
 	<meta charset="UTF-8">
 	<title>Document</title>
 	
@@ -13,11 +13,10 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/scripts.js"></script>
-</head>
 
-<body>
+
+
 
 	<div class="container">
 	</div>
 
-</body>
