@@ -1,10 +1,9 @@
-<?php include("includes/header.php") ?>
+<!DOCTYPE html>
+<html>
+	<?php include("includes/header.php") ?>
 
   
   <?php include("includes/nav.php") ?>
-
-
-
 
 	<div class="jumbotron">
 
@@ -13,4 +12,5 @@
 	</div>
 
 
-<?php include("includes/footer.php") ?>
+	<?php include("includes/footer.php") ?>
+</html>
