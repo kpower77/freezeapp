@@ -788,5 +788,4 @@ function password_reset() {
 
 		}
 
-
 }
