@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <title>User Login!</title>
+=======
+>>>>>>> 9f2e75614ad840d42360bc3c545cb7acc71f1562
 <?php include("includes/header.php") ?>
 
 <?php 
