@@ -7,16 +7,13 @@
 
 function clean($string) {
 
-
 return htmlentities($string);
-
 
 }
 
 
 
 function redirect($location){
-
 
 return header("Location: {$location}");
 
@@ -25,9 +22,7 @@ return header("Location: {$location}");
 
 function set_message($message) {
 
-
 	if(!empty($message)){
-
 
 		$_SESSION['message'] = $message;
 
@@ -37,16 +32,12 @@ function set_message($message) {
 
 	}
 
-
 }
-
 
 
 function display_message(){
 
-
 	if(isset($_SESSION['message'])) {
-
 
 		echo $_SESSION['message'];
 
@@ -54,19 +45,15 @@ function display_message(){
 
 	}
 
-
-
 }
 
 
 
 function token_generator(){
 
-
 $token = $_SESSION['token'] =  md5(uniqid(mt_rand(), true));
 
 return $token;
-
 
 }
 
@@ -82,9 +69,6 @@ $error_message = <<<DELIMITER
 DELIMITER;
 
 return $error_message;
-		
-
-
 
 
 }
@@ -107,7 +91,6 @@ function email_exists($email) {
 		return false;
 
 	}
-
 
 
 }
@@ -222,7 +205,7 @@ function validate_user_registration(){
 
 		if(email_exists($email)){
 
-			$errors[] = "Sorry that email already is registered";
+			$errors[] = "Sorry that email is already registered";
 
 		}
 
@@ -323,10 +306,10 @@ function register_user($first_name, $last_name, $username, $email, $password) {
 
 		$subject = "Activate Account";
 		$msg = " Please click the link below to activate your Account
-		http://edwincodecollege.com/login_app/activate.php?email=$email&code=$validation_code
+		http://nasirahamed.com/login_app/activate.php?email=$email&code=$validation_code
 		";
 
-		$headers = "From: noreply@edwincodecollege.com";
+		$headers = "From: noreply@nasirahamed.com";
 
 
 
@@ -595,11 +578,11 @@ function recover_password() {
 			$subject = "Please reset your password";
 			$message =  " Here is your password rest code {$validation_code}
 
-			Click here to reset your password http://edwincodecollege.com/login_app/code.php?email=$email&code=$validation_code
+			Click here to reset your password http://nasirahamed.com/login_app/code.php?email=$email&code=$validation_code
 
 			";
 
-			$headers = "From: noreply@@edwincodecollege.com";
+			$headers = "From: noreply@@nasirahamed.com";
 
 
 
@@ -807,12 +790,3 @@ function password_reset() {
 
 
 }
-
-
-
-
-
-
-
-
-
