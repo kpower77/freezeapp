@@ -15,7 +15,7 @@ confirm($result);
 
 $row = fetch_array($result);
 
-echo $row['username'];
+echo $row['username']; //pulling username from database
 
 
 ?>
