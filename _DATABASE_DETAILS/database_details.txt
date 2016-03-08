@@ -1,0 +1,14 @@
+FreezeApp Database Details:
+==========================
+
+USERNAME:
+root
+
+PASSWORD:
+root
+
+HOSTNAME:
+localhost
+
+DATABASE NAME:
+freezeapp
