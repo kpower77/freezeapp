@@ -3,7 +3,7 @@
 
 <div class="jumbotron">
 	<?php //display_message(); ?>
-	<h1 class="text-center"> SyncroSoft</h1>
+	<h1 class="text-center"> SyncroSoft (Ken)</h1>
 </div>
 
 
