@@ -10,6 +10,8 @@
     <!-- local style sheet placed second so overrides bootstrap css  -->
     <link rel="stylesheet" href="freezeapp/css/style.css">
     <link rel="stylesheet" href="Scripts/MetroJs_bundles/MetroJs.css">
+    
+    <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.js"></script>
 </head>
 <body>
     <div class="jumbotron">
@@ -18,7 +20,7 @@
         <div class="tiles blue tile-group four-wide">
         <!-- Sliding Tile that shows 100% of the back tile every 3 seconds -->
         <div class="live-tile" data-speed="750" data-delay="3000">
-            <span class="tile-title">slide tile</span>
+            <span class="tile-title"></span>
             <div><img class="full" src="/images/sample/1tw.gif" alt="1" /></div>
             <div><img class="full" src="/images/sample/2t.gif" alt="2" /></div>
         </div>
