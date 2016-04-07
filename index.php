@@ -4,6 +4,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- local style sheet placed second so overrides bootstrap css  -->
+    <link rel="stylesheet" href="freezeapp/css/style.css">
 </head>
 <body>
     <div class="jumbotron">
