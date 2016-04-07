@@ -94,13 +94,18 @@
 						<span class="charm-title">About</span>
 					</li>
 					<li>
-						<a href="http://www.twitter.com/dgreenwell" class="twitter" target="_blank"><img src="Scripts/MetroJs_bundles/images/1pixel.gif" alt="twitter"></a>
+						<a href="http://www.twitter.com" class="twitter" target="_blank"><img src="Scripts/MetroJs_bundles/images/1pixel.gif" alt="twitter"></a>
 						<span class="charm-title">Twitter</span>
 					</li>
 				</ul>
-			<a class="etc">•••</a>
-			
+			<a class="etc">&bull;&bull;&bull;</a>
 	</div>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(".live-tile,.flip-list").liveTile();
+			$(".appbar").applicationBar();
+		});
+	</script>
 <!-- Activate live tiles -->
 <script type="text/javascript">
     // apply regular slide universally unless .exclude class is applied 
