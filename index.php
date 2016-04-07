@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- local style sheet placed second so overrides bootstrap css  -->
     <link rel="stylesheet" href="freezeapp/css/style.css">
+    <link rel="stylesheet" href="Scripts/MetroJs_bundles/MetroJs.css">
 </head>
 <body>
     <div class="jumbotron">
