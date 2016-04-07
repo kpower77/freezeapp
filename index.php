@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Scripts/MetroJs_bundles/MetroJs.css">
     
     <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.js"></script>
+    <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.min.js"></script>
 </head>
 <body>
     <div class="jumbotron">
@@ -21,8 +22,8 @@
         <!-- Sliding Tile that shows 100% of the back tile every 3 seconds -->
         <div class="live-tile" data-speed="750" data-delay="3000">
             <span class="tile-title"></span>
-            <div><img class="full" src="/images/sample/1tw.gif" alt="1" /></div>
-            <div><img class="full" src="/images/sample/2t.gif" alt="2" /></div>
+            <div><img class="full" src="Scripts/MetroJs_bundles/images/metroIcons.jpg" alt="1" /></div>
+            <div><img class="full" src="Scripts/MetroJs_bundles/images/metroIcons_light.jpg" alt="2" /></div>
         </div>
         <!-- Red Flip Tile that flips every 4 seconds -->
         <div class="red live-tile" data-mode="flip" data-delay="4000">            
@@ -82,6 +83,24 @@
             <p>Static tiles can take advantage of theming too!</p>
     </div>
 </div>
+<div class="appbar">
+				<ul id="menu" class="appbar-buttons">
+					<li>
+						<a href="/" class="home"><img src="Scripts/MetroJs_bundles/images/1pixel.gif" alt="home"></a>
+						<span class="charm-title">Home</span>
+					</li>
+					<li>
+						<a href="/about" class="about"><img src="Scripts/MetroJs_bundles/images/1pixel.gif" alt="about"></a>
+						<span class="charm-title">About</span>
+					</li>
+					<li>
+						<a href="http://www.twitter.com/dgreenwell" class="twitter" target="_blank"><img src="Scripts/MetroJs_bundles/images/1pixel.gif" alt="twitter"></a>
+						<span class="charm-title">Twitter</span>
+					</li>
+				</ul>
+			<a class="etc">•••</a>
+			
+	</div>
 <!-- Activate live tiles -->
 <script type="text/javascript">
     // apply regular slide universally unless .exclude class is applied 
