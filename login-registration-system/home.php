@@ -2,7 +2,7 @@
 session_start();
 include_once 'dbconnect.php';
 
-if(!isset($_SESSION['user']))
+if(!isset($_SESSION['x14114640']))
 {
 	header("Location: index.php");
 }
