@@ -13,6 +13,23 @@ html {
 body {
   margin: 0;
 }
+ ul#tiles {
+     margin:0;
+     padding:0;
+     list-style-type:none;
+     width:300px;
+ }
+ ul#tiles li {
+     float:left;
+     width:72px;
+     height:72px;
+     border:1px solid black;
+     background:#09F;
+     margin:10px;
+     overflow:hidden;
+ }
+ ul#tiles li a {
+ }
 article,
 aside,
 details,
