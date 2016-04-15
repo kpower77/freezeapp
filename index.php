@@ -29,6 +29,34 @@
     
     <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.js"></script>
     <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.min.js"></script>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" >
+        $(document).ready(function () {
+            $(document).on("click", "li.closed a", function () {
+                $(this)
+                .parent()
+                .animate({
+                    height: "300px",
+                    width: "300px",
+                    backgroundColor: "#fff"
+                })
+                .attr("class", "open");
+                $(this).text("Close");
+            }); // closes click on "li.closed a"
+            $(document).on("click", "li.open a", function () {
+                $(this)
+                .parent()
+                .animate({
+                   width: "72px",
+                   height: "72px",
+                   backgroundColor: "#09f"
+                })
+                .attr("class", "closed");
+                $(this).text("Open");
+            }); // closes click on "li.closed a"
+        }); // closes document ready function
+    </script>
 </head>
 <body>
     <div class="jumbotron">
@@ -89,9 +117,9 @@
   
   
   
+  <!-- FUTURE REFERENCE SPARE CODE -->
   
-  
-    <!--<div class="tiles blue tile-group four-wide">-->-->
+    <!--<div class="tiles blue tile-group four-wide">-->
     <!--     Sliding Tile that shows 100% of the back tile every 3 seconds -->
     <!--    <div class="live-tile" data-speed="750" data-delay="3000">-->
     <!--        <span class="tile-title"></span>-->
@@ -233,7 +261,7 @@
   <!--  </div>-->
     <!-- Activate live tiles -->
   <!--  <script type="text/javascript">-->
-        // apply regular slide universally unless .exclude class is applied 
-        // NOTE: The default options for each liveTile are being pulled from the 'data-' attributes
+        <!--// apply regular slide universally unless .exclude class is applied -->
+        <!--// NOTE: The default options for each liveTile are being pulled from the 'data-' attributes-->
   <!--      $(".live-tile, .flip-list").not(".exclude").liveTile();-->
   <!--  </script>  -->
