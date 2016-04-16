@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include("includes/header.php") ?>
 <?php include("includes/nav.php") ?>
 <?php
@@ -13,7 +14,6 @@
     // 
 ?>
 
-<!DOCTYPE html>
 <html>
 <head>
     <title>
@@ -39,8 +39,8 @@
                     $(this)
                     .parent()
                     .animate({
-                        height: "300px",
-                        width: "300px",
+                        height: "600px",
+                        width: "600px",
                         backgroundColor: "#fff"
                     })
                     .attr("class", "open");
@@ -50,8 +50,8 @@
                 $(this)
                 .parent()
                 .animate({
-                   width: "72px",
-                   height: "72px",
+                   width: "300px",
+                   height: "300px",
                    backgroundColor: "#09f"
                 })
                 .attr("class", "closed");
@@ -61,7 +61,7 @@
     </script>
         <h1 class="text-center">FreezeApp</h1>
             <ul id="tiles">
-                <li class="closed"><a href="#">Open</a>
+                <li id = "vegetables" class="closed"><a href="#">Vegetables</a>
                     <br /></li>
                     
                 <li class="closed"><a href="#">Open</a>
@@ -73,7 +73,7 @@
                 <li class="closed"><a href="#">Open</a>
                     <br />Lorem ipsum dolor sit amet</li>
                     
-                <li class="closed"><a href="#">Open</a>
+                <li id="to-doList" class="closed"><a href="#">To-Do List</a>
                     <br />Lorem ipsum dolor sit amet</li>
                     
                 <li class="closed"><a href="#">Open</a>
