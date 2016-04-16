@@ -62,7 +62,7 @@
         <h1 class="text-center">FreezeApp</h1>
             <ul id="tiles">
                 <li class="closed"><a href="#">Open</a>
-                    <br />Lorem ipsum dolor sit amet</li>
+                    <br /></li>
                     
                 <li class="closed"><a href="#">Open</a>
                     <br />Lorem ipsum dolor sit amet</li>
