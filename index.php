@@ -39,8 +39,8 @@
                     $(this)
                     .parent()
                     .animate({
-                        height: "600px",
-                        width: "600px",
+                        height: "400px",
+                        width: "400px",
                         backgroundColor: "#fff"
                     })
                     .attr("class", "open");
@@ -50,8 +50,8 @@
                 $(this)
                 .parent()
                 .animate({
-                   width: "300px",
-                   height: "300px",
+                   width: "200px",
+                   height: "200px",
                    backgroundColor: "#09f"
                 })
                 .attr("class", "closed");
@@ -60,24 +60,29 @@
         }); // closes document ready function
     </script>
         <h1 class="text-center">FreezeApp</h1>
-            <ul id="tiles">
+            <ul id="vegetables">
                 <li id = "vegetables" class="closed"><a href="#">Vegetables</a>
-                    <br /></li>
-                    
-                <li class="closed"><a href="#">Open</a>
-                    <br />Lorem ipsum dolor sit amet</li>
-                    
-                <li class="closed"><a href="#">Open</a>
-                    <br />Lorem ipsum dolor sit amet</li>
-                    
-                <li class="closed"><a href="#">Open</a>
-                    <br />Lorem ipsum dolor sit amet</li>
-                    
-                <li id="to-doList" class="closed"><a href="#">To-Do List</a>
-                    <br />Lorem ipsum dolor sit amet</li>
-                    
-                <li class="closed"><a href="#">Open</a>
-                    <br />Lorem ipsum dolor sit amet</li>
+                    <br />Vegetablest</li>
+            </ul>
+            <ul id="fruits">
+                <li id="fruits" class="closed"><a href="#">Fruits</a>
+                    <br />Fruits</li>
+            </ul>
+            <ul id="drinks">       
+                <li id="drinks" class="closed"><a href="#">Drinks</a>
+                    <br />Drinks</li>
+            </ul>
+            <ul id="notes">
+                <li id= "notes" class="closed"><a href="#">Notes</a>
+                    <br />Notes</li>
+            </ul>
+            <ul id="todolists">
+                <li id="todolists" class="closed"><a href="#">To-Do List</a>
+                    <br />To-Do Lists</li>
+            </ul>
+            <ul id="recipes">
+                <li id="recipes" class="closed"><a href="#">Recipes</a>
+                    <br />Recipes</li>
             </ul>
         <div class="appbar">
 	    	<ul id="menu" class="appbar-buttons">
