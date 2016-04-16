@@ -29,11 +29,36 @@
     
     <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.js"></script>
     <script type="text/javascript" src="Scripts/MetroJs_bundles/MetroJs.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.5.1.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 <body>
     <div class="jumbotron">
+         <script type="text/javascript">
+            $(document).ready(function () {
+                $(document).on("click", "li.closed a", function () {
+                    $(this)
+                    .parent()
+                    .animate({
+                        height: "300px",
+                        width: "300px",
+                        backgroundColor: "#fff"
+                    })
+                    .attr("class", "open");
+                    $(this).text("Close");
+                }); // closes click on "li.closed a"
+            $(document).on("click", "li.open a", function () {
+                $(this)
+                .parent()
+                .animate({
+                   width: "72px",
+                   height: "72px",
+                   backgroundColor: "#09f"
+                })
+                .attr("class", "closed");
+                $(this).text("Open");
+            }); // closes click on "li.closed a"
+        }); // closes document ready function
+    </script>
         <h1 class="text-center">FreezeApp</h1>
             <ul id="tiles">
                 <li class="closed"><a href="#">Open</a>

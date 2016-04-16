@@ -22,30 +22,6 @@ $(function(){
     });
 
    
-$(document).ready(function () {
-    $(document).on("click", "li.closed a", function () {
-        $(this)
-        .parent()
-        .animate({
-            height: "300px",
-            width: "300px",
-            backgroundColor: "#fff"
-        })
-        .attr("class", "open");
-        $(this).text("Close");
-    }); // closes click on "li.closed a"
-$(document).on("click", "li.open a", function () {
-    $(this)
-    .parent()
-    .animate({
-       width: "72px",
-       height: "72px",
-       backgroundColor: "#09f"
-    })
-    .attr("class", "closed");
-    $(this).text("Open");
-}); // closes click on "li.closed a"
-}); // closes document ready function
 
 
 
